@@ -29,6 +29,8 @@ Steps
          git remote add origin https://github.com/path-to-repository
          git push -u origin master-or-anybranch
          //git remote set-url origin https://github.com/***repository link***(this is used to change URL)
+         //git config --global --unset user.name
+
 
          Note : 
          1. origin: the default name that git gives to your main remote repository
@@ -41,3 +43,4 @@ Steps
          3. master is the default branch created when you initialized a git repository (e.g. git init ). 
          4. You can delete the master branch (e.g. git branch -D master ). 
          5. You cannot delete the HEAD pointer. 
+         
