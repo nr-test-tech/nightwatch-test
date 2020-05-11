@@ -1,0 +1,21 @@
+{
+  "name": "nighwatchExample",
+  "version": "1.0.0",
+  "description": "To run selenium webdriver in Chrome browser, we need to take the help of ChromeDriver which is a \r separate executable that selenium webdriver uses to control chrome. \r ChromeDriver is a standalone server which implements WebDriver's wire protocol for Chromium.",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^81.0.0",
+    "nightwatch": "^1.3.5",
+    "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

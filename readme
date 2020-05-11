@@ -1,0 +1,24 @@
+To run selenium webdriver in Chrome browser, we need to take the help of ChromeDriver which is a 
+separate executable that selenium webdriver uses to control chrome. 
+ChromeDriver is a standalone server which implements WebDriver's wire protocol for Chromium.
+
+Steps
+1. Install Java and set path in environment veriable 
+2. Create a lib folder in root directory => Download selenium-server-standalone-3.141.59.jar 
+      and chromedriver.exe and place both inside lib folder(here it is externally we can install through npm also).
+3. npm install nightwatch 
+4. npm init --yes => this will create package.json
+5. create nightwatch.conf.js file in root folder 
+6. configure nightwatch.conf.js file with selenium and chromedriver details
+7. require('nightwatch/bin/runner.js')in nightwatch.js file; 
+      this will allow Selenium Server is running locally and is managed by Nightwatch
+8. create test.js file to write testcases.
+9. execute file in node => node nightwatch.js -e tests/test1.js
+ 
+ 1st time Git setup :
+ 1.  git download and install
+ 2.  Open the command line/terminal.
+            Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+            Set your email address: git config --global user.email "MY_NAME@example.com"
+                  => to check settings =>git config --list
+ 3.  
